@@ -1,1 +1,1 @@
-https://mr-shulhan/rsschool-2019Q1-cv/cv
+https://mr-shulhan.github.io/rsschool-2019Q1-cv/cv.
