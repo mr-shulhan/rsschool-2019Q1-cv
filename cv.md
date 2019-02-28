@@ -1,14 +1,14 @@
 
 # SHULHAN ANDREI
 
->** shulhan.andrei@gmail.com**  
->** +375-25-736-57-40**   
+>**shulhan.andrei@gmail.com**  
+>**+375-25-736-57-40**   
 
 ## Summary
 
 
 Beginner front-end programmer. Which has a minimal experience in the layout of sites, but even less programming experience.
-> But this is just the start =)
+**But this is just the start =)**
 
 ## Skills
 - JavaScript
