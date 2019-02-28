@@ -50,6 +50,6 @@ Beginner front-end programmer. Which has a minimal experience in the layout of s
 >* [hexlet.io](https://ru.hexlet.io)
 >* [codecademy.com](https://www.codecademy.com/learn)
 
-##English level
+## English level
 * ### Eng.by
 > Pre-Intermediate (02.2018 - 05.2018)
