@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Resume</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+     <!--  <hr class="hr-header-top"> -->
+      <h1 class="name-person">Andrei Shulhan</h1>
+      <img class="photo" src="img/photo.jpeg" height="270" width="180" alt="">
+      <div class="contacts">
+      <span class="city-person">City: <b>Minsk</b></span><br>
+      <span class="mail-person">Mail: <b>mr.shulhan@gmail.com</b></span><br>
+      <span class="phone-person"> Tel: <b>+375-25-736-57-40</b></span>
+      </div>
+     <!--  <hr class="hr-header-bottom"> -->
+     </div>
+    </header>
+
+  <main class="main-menu">
+    <div class="container">
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>JavaScript</li>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>GIT</li>
+        </ul>
+        <hr class="hr-section">
+      </section>
+
+      <section class="code-example">
+        <h2>Code examples</h2>
+        <p><code class="example-code">
+        fun = (str) => {
+        let acc = 0;
+        for (let i = 0; i < str.length; i += 1) {
+        const symbol = str[i];
+        acc = symbol === '(' ? acc + 1 : acc - 1;
+        if (acc < 0) {
+        return false;
+        }
+        }
+        return acc === 0;
+        };
+        </code></p> 
+          <hr class="hr-section">
+      </section>
+
+      <section class="experience">
+        <h2>Experience</h2>
+        <h3>Operations / Platform Engineering at Code Climate</h3>
+        <span class="date">2017-2018</span>
+        <ul>
+          <li><p>Translated design team’s UX wireframes and mockups into responsive, interactive features, using HTML/CSS and JavaScript</p></li>
+          <li><p>Worked with agile team to migrate legacy company website to AngularJS, Sass, HTML5, and Drupal
+            </p></li>
+        </ul>
+        <hr class="hr-section">
+      </section>
+
+      <section class="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <h3>SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL</h3>
+            <span class="date">Finance, 2015 - 2020</span>
+          </li>
+          <li>
+            <h3>GGAEK</h3>
+            <span class="date">Finance, 2010 - 2014</span>
+          </li>
+          <li>
+            <h3>COURSES</h3>
+            <ul class="courses-list">
+              <li><a href="#">htmlacademy.ru</a></li>
+              <li><a href="#">hexlet.io</a></li>
+              <li><a href="#">codecademy.com</a></li>
+            </ul>
+          </li>
+        </ul>
+        <hr class="hr-section">
+      </section>
+
+      <section class="english">
+        <h2>English level</h2>
+        <h3>Eng.by</h3>
+        <span class="date">Pre-Intermediate (02.2018 - 05.2018) </span>
+      </section>
+
+    </div>
+  </main>
+
+</body>
+</html>
