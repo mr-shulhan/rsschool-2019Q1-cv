@@ -1,0 +1,70 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  color: #222;
+
+}
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+h2 {
+  text-decoration: underline;
+}
+/* .hr-header-top,
+.hr-header-bottom {
+background-color: #222;
+height: 7px;  
+} */
+/* ul {
+  list-style: none;
+} */
+.hr-section {
+  height: 1px;
+  background-color: #222;
+}
+.name-person {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: right;
+}
+.photo {
+  filter: grayscale(100);
+  right: 0;
+  margin-left: 800px;
+  border: 2px solid #222;
+}
+
+.contacts {
+  margin-top: -70px;
+  margin-right: 250px;
+  text-align: right;
+}
+section > *:not(h2) {
+  padding-left: 250px;
+}
+section .date {
+  font-size: 15px;
+  font-weight: bold;
+  color: #575d5e;
+}
+.skills-list {
+  display: flex;
+  list-style: none;
+}
+.skills-list li {
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+a:hover {
+  border-bottom: 1px solid #222;
+}
+.courses-list {
+  list-style: none;
+  margin-left: -40px;
+}
+.example-code {
+  white-space: pre-line;
+}
